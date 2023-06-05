@@ -22,7 +22,7 @@ let flipdata = function(){
         displayobject = ArijitSingh1;
         isArijitSingh1 = true;
     }
-    document.getElementById("gandhi-img").src = displayobject.imgurl;
-    document.getElementById("mahatma-name").innerHTML = displayobject.name;
-    document.getElementById("mahatma-description").innerHTML = displayobject.Description;
+    document.getElementById("singer-img").src = displayobject.imgurl;
+    document.getElementById("singer-name").innerHTML = displayobject.name;
+    document.getElementById("singer-description").innerHTML = displayobject.Description;
 }
