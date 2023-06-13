@@ -20,7 +20,7 @@ let getRandomUser = function(){
        // displayobject.name="abcd"
         displayobject.imageurl = data.results[0].picture.large
         displayobject.description = data.results[0].gender
-        document.getElementById("singer-img").src = displayobject.imgurl;
+        document.getElementById("singer-img").src = displayobject.imagegurl;
         document.getElementById("singer-name").innerHTML = displayobject.name;
         document.getElementById("singer-description").innerHTML = displayobject.description;
     })
